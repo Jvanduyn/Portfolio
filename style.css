@@ -4,7 +4,6 @@
  }
 
  body {
-     height: 1700px;
      background-color: #dddddd;
      position: sticky;
      display: flex;
@@ -20,6 +19,14 @@
      height: 90px;
  }
 
+ .Logo {
+     display: flex;
+     margin-top: auto;
+     margin-bottom: auto;
+     justify-content: center;
+     align-items: center;
+ }
+
  h1 {
      display: flex;
      align-items: center;
@@ -27,12 +34,12 @@
      height: 100px;
      font-size: 60px;
      letter-spacing: .4rem;
+     justify-content: center;
  }
 
  h2 {
      font-size: 30px;
      padding: 10px;
-     margin-left: 110px;
  }
 
  .name {
@@ -90,6 +97,10 @@
      font-size: 20px;
  }
 
+ .CS-main {
+     height: 600px;
+ }
+
  .CS {
      height: 400px;
  }
@@ -106,4 +117,5 @@
      display: flex;
      justify-content: center;
      align-items: center;
+     margin: auto;
  }
