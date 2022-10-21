@@ -70,10 +70,26 @@
 
  .about {
      word-wrap: normal;
-     width: 600px;
+     width: 800px;
      margin-left: 115px;
      line-height: 25px;
      border-top-width: 2px;
      border-top-style: solid;
      padding: 5px;
+     word-spacing: 4px;
+     font-size: 20px;
+ }
+
+ img {
+     height: 60px;
+     margin-top: 5px;
+     margin-left: 100px;
+ }
+
+ .name {
+     align-items: center;
+     color: #555555;
+     height: 120px;
+     letter-spacing: .4rem;
+     margin-top: 25px;
  }
