@@ -5,7 +5,7 @@
 
  body {
      background-color: #dddddd;
-     width: 100%;
+     /* width: 100%; */
  }
 
  header {
@@ -15,6 +15,7 @@
      box-shadow: 0 6px 3px rgba(57, 63, 72, 0.3);
      height: 90px;
      width: 100%;
+     flex-wrap: wrap;
  }
 
  .sticky {
@@ -42,6 +43,13 @@
      align-items: center;
      height: 120px;
      margin-top: 25px;
+
+     /* height: 120px;
+     width: 100%;
+     margin-bottom: 25px;
+     background-image: url("images/Jacob\ VanDuynV3.png");
+     background-size: cover;
+     background-position: center; */
  }
 
  .links {
@@ -56,11 +64,17 @@
      font-size: 20px;
      text-decoration: none;
      color: inherit;
+     flex-wrap: wrap;
  }
 
  a {
+     display: flex;
      text-decoration: none;
      color: inherit;
+ }
+
+ ul {
+     display: flex;
  }
 
  li {
@@ -78,6 +92,7 @@
  }
 
  img {
+     display: flex;
      height: 60px;
      margin-top: 5px;
      margin-left: 100px;
@@ -97,6 +112,7 @@
  }
 
  .family {
+     display: flex;
      min-height: 175px;
      max-height: 175px;
      margin-right: 30px;
@@ -115,9 +131,9 @@
      justify-content: center;
  }
 
- section>div {
+ /* section>div {
      flex: 0 0 90%;
- }
+ } */
 
 
  .box {
@@ -130,29 +146,35 @@
  }
 
  .CS-main {
+     */
      /* min-height: 500px; */
-     max-width: 100%;
+     display: flex;
+     max-width: auto;
      max-height: auto;
-     background-image: url('images/CS.jpeg');
+     background-image: url('images/project1.png');
      background-size: 100%;
  }
 
  .CS-1 {
+     display: flex;
      background-image: url('https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg?w=2000');
      min-width: 400px;
  }
 
  .CS-2 {
+     display: flex;
      background-image: url('https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg?w=2000');
      min-width: 400px;
  }
 
  .CS-3 {
+     display: flex;
      background-image: url('https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg?w=2000');
      min-width: 400px;
  }
 
  .CS-4 {
+     display: flex;
      background-image: url('https://img.freepik.com/free-vector/neon-style-coming-soon-glowing-background-design_1017-25516.jpg?w=2000');
      min-width: 400px;
  }
@@ -163,9 +185,11 @@
      margin-top: auto;
      height: 70px;
      color: #e7e7e7;
+     flex-wrap: wrap;
  }
 
  .footer-text {
+     display: flex;
      margin-left: 100px;
      font-size: 20px;
  }
@@ -175,6 +199,7 @@
      justify-content: center;
      align-items: center;
      margin: auto;
+     flex-wrap: wrap;
  }
 
  @media screen {
